@@ -1,0 +1,100 @@
+[
+  {
+    "id": "p1",
+    "slug": "pistachio-berry-cake",
+    "name": "Kue Pistachio Berry",
+    "category": "Kue",
+    "price": 285000,
+    "description": "Sponge vanilla, berry segar, dan krim pistachio. Best seller sejak 2019.",
+    "image": "/images/products/pistachio-berry-cake.jpg",
+    "tag": "Terlaris",
+    "variants": [
+      { "label": "16 cm", "price": 285000 },
+      { "label": "20 cm", "price": 385000 },
+      { "label": "22 cm", "price": 465000 }
+    ]
+  },
+  {
+    "id": "p2",
+    "slug": "cinnamon-morning-bun",
+    "name": "Cinnamon Roll",
+    "category": "Pastry",
+    "price": 24000,
+    "description": "Pastry berlapis dengan glasir gula kayu manis, dipanggang tiap pagi.",
+    "image": "/images/products/cinnamon-morning-bun.jpg",
+    "tag": "Populer",
+    "variants": []
+  },
+  {
+    "id": "p3",
+    "slug": "chocolate-dream-tart",
+    "name": "Tart Cokelat",
+    "category": "Dessert",
+    "price": 65000,
+    "description": "Ganache cokelat hitam dan sea salt, rich tapi tidak bikin enek.",
+    "image": "/images/products/chocolate-dream-tart.jpg",
+    "tag": "Baru",
+    "variants": [
+      { "label": "16 cm", "price": 65000 },
+      { "label": "20 cm", "price": 115000 }
+    ]
+  },
+  {
+    "id": "p4",
+    "slug": "sourdough-loaf",
+    "name": "Roti Sourdough",
+    "category": "Roti",
+    "price": 58000,
+    "description": "Fermentasi 24 jam, crust crispy dan crumb chewy.",
+    "image": "/images/products/sourdough-loaf.jpg",
+    "tag": "",
+    "variants": []
+  },
+  {
+    "id": "p5",
+    "slug": "butter-croissant",
+    "name": "Croissant Mentega",
+    "category": "Pastry",
+    "price": 28000,
+    "description": "72 lapis mentega Prancis, dipanggang sampai golden.",
+    "image": "/images/products/butter-croissant.jpg",
+    "tag": "Spesial hari ini",
+    "variants": []
+  },
+  {
+    "id": "p6",
+    "slug": "red-velvet-cake",
+    "name": "Kue Red Velvet",
+    "category": "Kue",
+    "price": 298000,
+    "description": "Frosting cream cheese, moist dan tidak terlalu manis.",
+    "image": "/images/products/red-velvet-cake.jpg",
+    "tag": "",
+    "variants": [
+      { "label": "16 cm", "price": 298000 },
+      { "label": "20 cm", "price": 398000 }
+    ]
+  },
+  {
+    "id": "p7",
+    "slug": "assorted-cookie-box",
+    "name": "Kotak Kue Kering",
+    "category": "Dessert",
+    "price": 95000,
+    "description": "Isi 12 kue kering: choco chip, matcha, dan butter shortbread.",
+    "image": "/images/products/assorted-cookie-box.jpg",
+    "tag": "",
+    "variants": []
+  },
+  {
+    "id": "p8",
+    "slug": "celebration-hamper",
+    "name": "Hampers Perayaan",
+    "category": "Hampers",
+    "price": 450000,
+    "description": "Hampers berisi cake mini, kue kering, dan pastry pilihan. Cocok untuk hadiah.",
+    "image": "/images/products/celebration-hamper.jpg",
+    "tag": "",
+    "variants": []
+  }
+]

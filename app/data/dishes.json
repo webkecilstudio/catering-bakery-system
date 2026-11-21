@@ -1,0 +1,14 @@
+[
+  { "id": "d1", "name": "Sate Ayam", "type": "savory", "description": "Sate ayam bumbu kacang", "image": "/images/dishes/d1-sate-ayam.jpg" },
+  { "id": "d2", "name": "Rendang Sapi", "type": "savory", "description": "Rendang sapi empuk", "image": "/images/dishes/d2-rendang-sapi.jpg" },
+  { "id": "d3", "name": "Nasi Goreng Kampung", "type": "savory", "description": "Nasi goreng ikan asin & cabai", "image": "/images/dishes/d3-nasi-goreng.jpg" },
+  { "id": "d4", "name": "Gado-Gado", "type": "savory", "description": "Sayur segar dengan bumbu kacang", "image": "/images/dishes/d4-gado-gado.jpg" },
+  { "id": "d5", "name": "Ayam Bakar Madu", "type": "savory", "description": "Ayam bakar bumbu madu", "image": "/images/dishes/d5-ayam-bakar-madu.jpg" },
+  { "id": "d6", "name": "Lumpia Sayur", "type": "savory", "description": "Lumpia sayur crispy", "image": "/images/dishes/d6-lumpia-sayur.jpg" },
+  { "id": "d7", "name": "Mini Pavlova", "type": "sweet", "description": "Meringue, krim, dan buah segar", "image": "/images/dishes/d7-mini-pavlova.jpg" },
+  { "id": "d8", "name": "Puding Mangga", "type": "sweet", "description": "Puding mangga lembut", "image": "/images/dishes/d8-puding-mangga.jpg" },
+  { "id": "d9", "name": "Brownie Cokelat", "type": "sweet", "description": "Brownie fudgy potongan kecil", "image": "/images/dishes/d9-brownie.jpg" },
+  { "id": "d10", "name": "Jus Jeruk Segar", "type": "drink", "description": "Peras langsung", "image": "/images/dishes/d10-jus-jeruk.jpg" },
+  { "id": "d11", "name": "Es Teh Lemon", "type": "drink", "description": "Teh lemon dingin", "image": "/images/dishes/d11-es-teh-lemon.jpg" },
+  { "id": "d12", "name": "Air Infus Buah", "type": "drink", "description": "Air mineral dengan potongan buah", "image": "/images/dishes/d12-infused-water.jpg" }
+]

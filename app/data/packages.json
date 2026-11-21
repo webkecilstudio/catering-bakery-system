@@ -1,0 +1,41 @@
+[
+  {
+    "id": "pk1",
+    "slug": "the-gatherer",
+    "name": "Paket Akrab",
+    "description": "Paket santai untuk acara kecil, cocok buat arisan atau meeting tim.",
+    "image": "/images/packages/the-gatherer.jpg",
+    "pricePerPax": 85000,
+    "minGuests": 10,
+    "maxGuests": 15,
+    "dishSlots": 4,
+    "includes": ["2 hidangan gurih", "2 hidangan manis", "Dispenser jus segar"],
+    "featured": false
+  },
+  {
+    "id": "pk2",
+    "slug": "the-celebration",
+    "name": "Paket Perayaan",
+    "description": "Paket favorit untuk ulang tahun dan acara keluarga.",
+    "image": "/images/packages/the-celebration.jpg",
+    "pricePerPax": 120000,
+    "minGuests": 20,
+    "maxGuests": 30,
+    "dishSlots": 6,
+    "includes": ["3 hidangan gurih", "3 hidangan manis", "Kue perayaan custom"],
+    "featured": true
+  },
+  {
+    "id": "pk3",
+    "slug": "the-grand-table",
+    "name": "Paket Meja Besar",
+    "description": "Paket lengkap untuk pernikahan dan acara korporat skala besar.",
+    "image": "/images/packages/the-grand-table.jpg",
+    "pricePerPax": 175000,
+    "minGuests": 50,
+    "maxGuests": 500,
+    "dishSlots": 8,
+    "includes": ["Menu kurasi chef", "Dekorasi meja dessert", "Tim event khusus"],
+    "featured": false
+  }
+]
