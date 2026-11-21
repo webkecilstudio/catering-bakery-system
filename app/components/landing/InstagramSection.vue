@@ -17,7 +17,7 @@ const photos = [
     </div>
     <div class="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3">
       <a v-for="photo in photos" :key="photo.image" href="#" class="group relative overflow-hidden rounded-2xl">
-        <img :src="photo.image" :alt="photo.alt" class="aspect-square w-full object-cover transition duration-500 group-hover:scale-110">
+        <img :src="asset(photo.image)" :alt="photo.alt" class="aspect-square w-full object-cover transition duration-500 group-hover:scale-110">
         <div class="absolute inset-0 flex items-center justify-center bg-brand-orange/70 opacity-0 transition group-hover:opacity-100"><span class="text-2xl text-white">♡</span></div>
       </a>
     </div>

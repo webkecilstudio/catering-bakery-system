@@ -16,8 +16,8 @@ addIcons(FaArrowRight)
         </a>
       </div>
       <div class="grid grid-cols-2 gap-4">
-        <img src="/images/story/1.jpg" alt="Baker menyiapkan adonan segar" class="mt-10 h-64 w-full rounded-2xl object-cover">
-        <img src="/images/story/2.jpg" alt="Roti segar dari oven" class="h-64 w-full rounded-2xl object-cover">
+        <img :src="asset('/images/story/1.jpg')" alt="Baker menyiapkan adonan segar" class="mt-10 h-64 w-full rounded-2xl object-cover">
+        <img :src="asset('/images/story/2.jpg')" alt="Roti segar dari oven" class="h-64 w-full rounded-2xl object-cover">
       </div>
     </div>
     </div>

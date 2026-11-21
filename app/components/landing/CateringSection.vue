@@ -15,7 +15,7 @@ const services = [
   <section id="catering" class="mx-auto max-w-7xl px-5 py-20 lg:px-8">
     <div class="grid items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
       <div class="relative">
-        <img src="/images/packages/the-celebration.jpg" alt="Hidangan catering untuk acara" class="h-[480px] w-full rounded-[2rem] object-cover">
+        <img :src="asset('/images/packages/the-celebration.jpg')" alt="Hidangan catering untuk acara" class="h-[480px] w-full rounded-[2rem] object-cover">
         <div class="absolute -bottom-5 -right-3 max-w-[190px] rounded-2xl bg-brand-orange p-5 text-white shadow-xl shadow-orange-200 sm:-right-5">
           <p class="font-display text-3xl font-bold">10+</p><p class="mt-1 text-xs leading-5 text-orange-100">tahun bikin acara makin lezat</p>
         </div>

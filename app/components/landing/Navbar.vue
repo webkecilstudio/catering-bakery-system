@@ -21,7 +21,7 @@ const links = [
   <header class="sticky top-0 z-30 border-b border-black/5 bg-white/90 backdrop-blur-md">
     <div class="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 lg:px-8">
       <NuxtLink to="/" class="flex items-center gap-2.5" @click="isOpen = false">
-        <img src="/webkecilstudio.png" alt="Dapur Onty" class="h-10 w-10 rounded-xl object-cover">
+        <img :src="asset('/webkecilstudio.png')" alt="Dapur Onty" class="h-10 w-10 rounded-xl object-cover">
         <span class="font-display text-xl font-bold tracking-tight">Dapur <span class="text-brand-orange">Onty</span></span>
       </NuxtLink>
 

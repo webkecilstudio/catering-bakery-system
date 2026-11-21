@@ -22,7 +22,7 @@ addIcons(FaArrowRight)
         </div>
         <div class="mt-10 flex items-center gap-4">
           <div class="flex -space-x-2">
-            <img v-for="n in 3" :key="n" :src="`/images/avatars/${n}.jpg`" alt="" class="h-9 w-9 rounded-full border-2 border-[#fff9f4] object-cover">
+            <img v-for="n in 3" :key="n" :src="asset(`/images/avatars/${n}.jpg`)" alt="" class="h-9 w-9 rounded-full border-2 border-[#fff9f4] object-cover">
           </div>
           <p class="text-xs leading-5 text-brand-muted"><strong class="text-brand-ink">2.000+</strong> pelanggan puas<br><span class="text-brand-orange">★★★★★</span> rating 4,9/5</p>
         </div>
@@ -30,7 +30,7 @@ addIcons(FaArrowRight)
       <div class="relative">
         <div class="absolute -right-6 -top-6 h-40 w-40 rounded-full bg-orange-200/50 blur-3xl"></div>
         <div class="relative overflow-hidden rounded-[2rem] rounded-br-[6rem] shadow-2xl shadow-orange-200/60">
-          <img src="/images/hero.jpg" alt="Croissant dan roti yang baru dipanggang" class="h-[420px] w-full object-cover sm:h-[540px]">
+          <img :src="asset('/images/hero.jpg')" alt="Croissant dan roti yang baru dipanggang" class="h-[420px] w-full object-cover sm:h-[540px]">
           <div class="absolute bottom-5 left-5 rounded-2xl bg-white/95 p-4 shadow-xl backdrop-blur">
             <p class="text-xs font-bold uppercase tracking-wider text-brand-orange">Spesial hari ini</p>
             <p class="mt-1 font-display text-lg font-bold">Croissant Mentega</p>

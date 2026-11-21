@@ -19,7 +19,7 @@ const testimonials = [
           <OhVueIcon name="fa-quote-left" class="text-2xl text-orange-200" />
           <p class="mt-5 text-sm leading-7 text-brand-ink">“{{ testimonial.quote }}”</p>
           <div class="mt-7 flex items-center gap-3">
-            <img :src="testimonial.image" :alt="testimonial.name" class="h-10 w-10 rounded-full object-cover">
+            <img :src="asset(testimonial.image)" :alt="testimonial.name" class="h-10 w-10 rounded-full object-cover">
             <div><p class="text-sm font-bold">{{ testimonial.name }}</p><p class="text-xs text-brand-muted">{{ testimonial.role }}</p></div>
             <div class="ml-auto flex gap-0.5 text-yellow-400"><OhVueIcon v-for="star in 5" :key="star" name="fa-star" scale="0.65" /></div>
           </div>
