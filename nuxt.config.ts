@@ -1,8 +1,10 @@
 import tailwindcss from '@tailwindcss/vite'
 
-const baseURL = '/'
+const baseURL = process.env.NUXT_APP_BASE_URL || '/'
 
 export default defineNuxtConfig({
+  // GitHub Pages project site (subpath) pakai SPA agar prerender tidak bentrok dengan baseURL.
+  ssr: baseURL === '/',
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
